@@ -1,0 +1,95 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+.orange-color{
+    color: rgb(243, 85, 22);
+}
+.top{
+    display: flex;
+    margin: 5%;
+}
+.flx{
+    display: flex;
+}
+h1{
+    font-size: 50px;
+    color: gray;
+}
+h2{
+    font-size: 40px;
+    font-weight: bolder;
+}
+p{
+    color: gray;
+}
+.half-width{
+    width: 50%;
+}
+.half-width img{
+    width: 50%;
+}
+.button{
+   text-decoration: none;
+   background-image: linear-gradient(rgb(255, 136, 0),tomato);
+   color: white;
+   font-size: 20px;
+   padding: 3%;
+   border-radius: 55px;
+   box-shadow: 5px 5px 10px tomato;
+}
+.bg-img {
+    background-image: url(images/appi.jpg);
+    height: 650px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .about-me {
+    text-align: left;
+    padding-left: 54%;
+    padding-top: 14%;
+    padding-right: 15%;
+  }
+  .my-recipies{
+      text-align: center;
+  }
+  .group{
+      width: 25%;
+      margin-left: 3.5%;
+      margin-right: 4%;
+      padding-left: 1%;
+      border-radius: 8%;
+      box-shadow: 10px 10px 50px gray;
+  }
+  .img1{
+      height: 245px;
+      width: 315px;
+      padding-top: 20px;
+      padding-right: 20px;
+      padding-left: -50px;
+  }
+  .divided{
+    display: flex;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    border-radius: 15px;
+    box-shadow: 15px 20px 20px 20px  #f1ebeb;
+}
+.left{
+    padding-left: 150px;
+}
+.center{
+    padding-left: 200px;
+}
+.right{
+    padding-left: 200px;
+}
+  footer{
+    background-color: black;
+    text-align: center;
+    padding: 60px 450px 60px 450px ;
+ }
